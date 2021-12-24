@@ -1,15 +1,14 @@
-## Welcome to GitHub Pages
+## Plant Nursery Website
 
-You can use the [editor on GitHub](https://github.com/Vrds/plant-nursery-website/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+An eCommerce Website Using Html, CSS and JavaScript. The main benefit of plant nursery eCommerce website is that people does not need to go out for a shopping for purchasing plants, they can order and get different species and medicinal value plants by purchasing them online through the website. The website is static i.e., it is front-end. It can also altered as an dynamic website by necessary functions.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Installation
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
+1. Clone the repository - https://github.com/Vrds/plant-nursery-website.git
+
+2. Download the code zip(above)
 
 # Header 1
 ## Header 2
@@ -18,8 +17,7 @@ Syntax highlighted code block
 - Bulleted
 - List
 
-1. Numbered
-2. List
+
 
 **Bold** and _Italic_ and `Code` text
 
@@ -32,6 +30,4 @@ For more details see [Basic writing and formatting syntax](https://docs.github.c
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Vrds/plant-nursery-website/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
