@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>ACCOUNT |BLOSSOM VALLEY </title>
+     <link rel="icon" href="images/logo.png" type="image" sizes="16x16">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+        
+    </head>
+    <body>
+     
+        <div class="container">
+         
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo2.jpg"  width="125px">
+            </div>
+            <nav>
+                <ul> 
+                    <li><a href="index.html"> HOME</a></li>
+                    <li><a href="product.html"> PRODUCTS</a></li>
+                    <li><a href=""> ABOUT</a></li>
+                    <li><a href=""> CONTACT</a></li>
+                    <li><a href="account.html"> ACCOUNT</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"> <img src="images/cart.png" width="30px" height="30px"></a>
+        </div>
+          
+         </div> 
+        
+  
+                
+   <!--------account-------->
+        <div class="account-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="images/wall.png" width="100%">
+                    </div>
+                     <div class="col-2">
+                        <div class="form-container">
+                            <div class="form-btn">
+                                <span onclick="login()">Login </span>
+                                <span onclick="register()">Register</span>
+                                <hr id ="Indicator">
+                            </div>
+                            <form id="Loginform" action= "validation.php" method="post">
+                                <input type="text" placeholder="Username" required>
+                                <input type="password" placeholder="Password" required>
+                                <button type="submit" class="btn">Login</button>
+                                <a href="">Forgot Password</a>
+                            </form >
+                            <form id="Regform"  action= "registration.php" method="post" >
+                                <input type="text" placeholder="Username" required>
+                                <input type="password" placeholder="Password" required>
+                                <input type="email" placeholder="Email" required>
+                                <button type="submit" class="btn">Register</button>
+                                
+                                
+                            </form>
+                         </div>
+              </div>
+                </div>        
+            </div>
+        </div>
+        <!------------------footer---------->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3> Download our App</h3>
+                        <p>Download our App for ios and Andoid mobile phones.</p>
+                        <div class="app-logo">
+                            <img src="images/playstore.jpg">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/logo2.jpg">
+                        <p>Make Space For Nature</p>
+                    </div>
+                     <div class="footer-col-3">
+                        <h3>USEFUL LINKS</h3>
+                        <ul>
+                            <li>Coupons</li>
+                             <li>Blog Post</li>
+                             <li>Return Policy</li>
+                             <li>Join affiliate</li>
+                         </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>FOLLOW US</h3>
+                        <ul>
+                            <li>Facebook</li>
+                             <li>Twitter</li>
+                             <li>Instagram</li>
+                             <li>Youtube</li>
+                         </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright"> Copyright © 2020 - Blossom Valley </p>
+            </div>
+        </div>     
+        <!------------js for account-->
+        <script>
+            var Loginform = document.getElementById("Loginform");
+             var Regform = document.getElementById("Regform");
+             var Indicator= document.getElementById("Indicator");
+            
+              function register(){
+                  Regform.style.transform = "translateX(0px)";
+                  Loginform.style.transform = "translateX(0px)";
+                  Indicator.style.transform = "translateX(100px)";
+              }
+             function login(){
+                  Regform.style.transform = "translateX(300px)";
+                  Loginform.style.transform = "translateX(300px)";
+                 Indicator.style.transform = "translateX(0px)";
+              }
+            
+            
+            
+        </script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
