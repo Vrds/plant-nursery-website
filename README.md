@@ -45,6 +45,7 @@ An eCommerce Website Using Html, CSS and JavaScript. The move to digital shoppin
 ## Azure
 
 - Static Web Apps
+- KeyVault(For saving endpoints, website urls,subscription key etc)
 
 ## Screenshot of Website
 
